@@ -19,6 +19,15 @@
 <link rel="stylesheet" href="jquery.mobile-1.4.5.css">
 <script src="jquery.js"></script>
 <script src="jquery.mobile-1.4.5.js"></script>
+<script>
+var root = "file:///D:/Users/Administrator/git/demo/heka/index.html"
+$(document).on("pageinit","#pageone",function(){
+  $("#aaa").on("swipe",function(){
+  	//$("#aaa").text(root+"#pagetwo");
+    $.mobile.changePage("#pagetwo",{ transition: "slideup" });
+  });
+});
+</script>
 </head>
 
 <body>
@@ -31,6 +40,7 @@
   	<p>元旦祝福    就是这么任性</p>
   	<p><img src="a.png"  alt="logo" width="200" height="100" /></p>
   	<p>川汇沧海    信达天下</p>
+  	<p id="aaa" style="border:1px solid black;height:200px;width:200px;"></p>
   </div>
   <div data-role="footer">
     <a href="#pagetwo" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
