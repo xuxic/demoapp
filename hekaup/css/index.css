@@ -43,8 +43,8 @@ body{
 	height:auto;width:80%;
 	position:absolute;
 	left:0%;
-	top:0%;
-	margin-left:-100px;
+	top:0px;
+	margin-left:-90px;
 	margin-top:-20px;
 	z-index:2;
 }
@@ -67,7 +67,7 @@ body{
 	height:auto;width:40%;
 	position:absolute;
 	left:0%;
-	top:70%;
+	top:80%;
 	margin-left:0px;
 	z-index:1;
 }
@@ -75,7 +75,7 @@ body{
 	height:auto;width:30%;
 	position:absolute;
 	right:5%;
-	top:70%;
+	top:80%;
 	margin-left:0px;
 	z-index:1;
 }
@@ -99,7 +99,7 @@ body{
 	height:auto;width:60%;
 	position:absolute;
 	right:0%;
-	top:60%;
+	top:70%;
 	margin-left:0px;
 	z-index:1;
 }
@@ -121,7 +121,7 @@ body{
 .page-2-1 .img_page2 {
 	height:auto;width:70%;
 	position:absolute;
-	left:7%;
+	left:20%;
 	top:32%;
 	margin-left:0px;
 }
@@ -129,29 +129,37 @@ body{
 	height:auto;width:40%;
 	position:absolute;
 	right:0%;
-	top:40%;
+	top:18%;
 	margin-left:0px;
 }
 .page-3-1 .img_page3 {
 	height:auto;width:80%;
 	position:absolute;
-	right:0%;
+	left:12%;
 	top:25%;
 	margin-left:0px;
+	z-index:2;
+}
+.page-3-1 .img_page3b {
+	height:auto;width:110%;
+	position:absolute;
+	left:0%;
+	top:50%;
+	margin-left:-20px;
 	z-index:2;
 }
 .page-3-1 .img_yuanbao {
 	height:auto;width:35%;
 	position:absolute;
 	left:10%;
-	top:70%;
+	top:75%;
 	margin-left:0px;
 	z-index:2;
 }
 .page-4-1 .img_page4a {
 	height:auto;width:80%;
 	position:absolute;
-	right:5%;
+	right:8%;
 	top:25%;
 	margin-left:0px;
 	z-index:2;
@@ -167,7 +175,7 @@ body{
 .page-4-1 .img_page4c {
 	height:auto;width:80%;
 	position:absolute;
-	right:5%;
+	right:8%;
 	top:65%;
 	margin-left:0px;
 	z-index:2;
@@ -207,8 +215,24 @@ body{
 .page-6-1 .img_page6 {
 	height:auto;width:80%;
 	position:absolute;
-	left:15%;
-	top:20%;
-	margin-left:0px;
+	left:10%;
+	top:25%;
+	margin-left:5px;
 	z-index:2;
+}
+.page-6-1 .img_bianpao {
+	height:auto;width:30%;
+	position:absolute;
+	left:0%;
+	top:30%;
+	margin-left:-25px;
+	z-index:1;
+}
+.page-6-1 .img_bianpao2 {
+	height:auto;width:30%;
+	position:absolute;
+	right:0%;
+	top:30%;
+	margin-right:-30px;
+	z-index:1;
 }
