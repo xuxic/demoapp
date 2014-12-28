@@ -63,6 +63,22 @@ body{
 	top:0%;
 	margin-left:0px;
 }
+.img_music {
+	height:auto;width:15%;
+	position:absolute;
+	right:0%;
+	top:2%;
+	margin-left:0px;
+	z-index:3;
+}
+.img_musica {
+	height:auto;width:8%;
+	position:absolute;
+	right:10%;
+	top:0%;
+	margin-left:0px;
+	z-index:3;
+}
 .img_fanchuan1 {
 	height:auto;width:40%;
 	position:absolute;
