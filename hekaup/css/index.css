@@ -197,6 +197,14 @@ body{
 	margin-left:0px;
 	z-index:2;
 }
+.page-5-1 .img_chaishen {
+	height:auto;width:50%;
+	position:absolute;
+	left:25%;
+	top:60%;
+	margin-left:0px;
+	z-index:2;
+}
 .page-6-1 .img_page6 {
 	height:auto;width:80%;
 	position:absolute;
