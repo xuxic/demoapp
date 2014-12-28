@@ -47,9 +47,9 @@ body{
 	z-index:2;
 }
 .img_piaodai {
-	height:auto;width:70%;
+	height:auto;width:100%;
 	position:absolute;
-	left:20%;
+	left:15%;
 	top:20px;
 	margin-left:0px;
 	z-index:1;
@@ -112,59 +112,33 @@ body{
 .page-2-1 .img_page2 {
 	height:auto;width:70%;
 	position:absolute;
-	left:20%;
+	left:3%;
 	top:32%;
 	margin-left:0px;
 }
-.page-2-1 .img_3 {
-	height:auto;width:60;
+.page-2-1 .img_yanhua2 {
+	height:auto;width:40%;
 	position:absolute;
-	left:30%;
-	top:50%;
+	right:0%;
+	top:40%;
 	margin-left:0px;
 }
-.page-2-1 .img_4 {
-	height:auto;width:20px;
+
+.page-3-1 .img_page3 {
+	height:auto;width:80%;
 	position:absolute;
-	left:50%;
-	top:87%;
-	margin-left:-10px;
-}
-.page-2-1 .img_5 {
-	height:auto;width:142px;
-	position:absolute;
-	left:50%;
-	top:82%;
-	margin-left:-71px;
-}
-.page-2-1 .img_6 {
-	height:auto;width:25px;
-	position:absolute;
-	left:50%;
-	top:92%;
-	margin-left:-12px;
-}
-.page-2-1 .img_7 {
-	height:auto;width:248px;
-	position:absolute;
-	left:50%;
-	top:8%;
-	margin-left:-110px;
-}
-.page-3-1 .img_1 {
-	height:90%;width:100%;
-	position:absolute;
-	left:0%;
-	top:0%;
+	right:0%;
+	top:20%;
 	margin-left:0px;
 	z-index:2;
 }
-.page-3-1 .img_2 {
-	height:auto;width:250px;
+.page-3-1 .img_yuanbao {
+	height:auto;width:35%;
 	position:absolute;
-	left:50%;
-	top:30%;
-	margin-left:-125px;
+	left:10%;
+	top:65%;
+	margin-left:0px;
+	z-index:2;
 }
 .page-3-1 .img_3 {
 	height:auto;width:172px;
