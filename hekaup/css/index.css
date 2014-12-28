@@ -68,13 +68,13 @@ body{
 	position:absolute;
 	right:0%;
 	top:2%;
-	margin-left:0px;
+	margin-right:-10px;
 	z-index:3;
 }
 .img_musica {
 	height:auto;width:8%;
 	position:absolute;
-	right:10%;
+	right:5%;
 	top:0%;
 	margin-left:0px;
 	z-index:3;

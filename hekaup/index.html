@@ -14,7 +14,7 @@
 <script type="text/javascript">
 function toggleSound() { 
 	var music = document.getElementById("bgsound");
-	if (music.paused) { music.play(); }
+	if (music.paused || music.ended) { music.play(); }
 	else { music.pause(); }
 }
 </script>
@@ -22,7 +22,7 @@ function toggleSound() {
 	<body>
 		<div>
 			<div id="audiocontainer" style="display:none">
-				<audio id="bgsound" >
+				<audio id="bgsound" autoplay="autoplay">
 					<source src="sound/pengyou.mp3">不支持audio</source>
 				</audio>
 			</div>
