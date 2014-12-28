@@ -20,12 +20,13 @@ body{
 	margin-left:0px;
 }
 
-.page-1-1{ background-color:#DD0024;}
-.page-2-1{ background-color:#DD0024;}
-.page-3-1{ background-color:#DD0024;}
-.page-4-1{ background-color:#DD0024;}
-.page-5-1{ background-color:#DD0024;}
-.page-6-1{ background-color:#DD0024;}
+.page-1-1{ background-color:#9D1716;}
+.page-2-1{ background-color:#9D1716;}
+.page-3-1{ background-color:#9D1716;}
+.page-4-1{ background-color:#9D1716;}
+.page-5-1{ background-color:#9D1716;}
+.page-6-1{ background-color:#9D1716;}
+.page-7-1{ background-color:#DD0024;}
 
 .page-current{
 	z-index:1;
@@ -39,20 +40,28 @@ body{
 	margin-left:0px;
 }
 .img_denglong {
-	height:auto;width:50%;
+	height:auto;width:80%;
 	position:absolute;
 	left:0%;
-	top:0px;
-	margin-left:-50px;
+	top:0%;
+	margin-left:-100px;
+	margin-top:-20px;
 	z-index:2;
 }
 .img_piaodai {
-	height:auto;width:100%;
+	height:auto;width:120%;
 	position:absolute;
-	left:15%;
+	left:10%;
 	top:20px;
 	margin-left:0px;
 	z-index:1;
+}
+.img_shufa {
+	height:auto;width:100%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	margin-left:0px;
 }
 .img_fanchuan1 {
 	height:auto;width:40%;
@@ -89,7 +98,7 @@ body{
 .page-1-1 .img_xintuo {
 	height:auto;width:60%;
 	position:absolute;
-	right:20%;
+	right:0%;
 	top:60%;
 	margin-left:0px;
 	z-index:1;
@@ -128,7 +137,7 @@ body{
 	height:auto;width:80%;
 	position:absolute;
 	right:0%;
-	top:20%;
+	top:25%;
 	margin-left:0px;
 	z-index:2;
 }
@@ -136,7 +145,7 @@ body{
 	height:auto;width:35%;
 	position:absolute;
 	left:10%;
-	top:65%;
+	top:70%;
 	margin-left:0px;
 	z-index:2;
 }
