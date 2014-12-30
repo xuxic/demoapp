@@ -17,12 +17,17 @@ function toggleSound() {
 	if (music.paused || music.ended) { music.play(); }
 	else { music.pause(); }
 }
+if ("wView" in window) {
+    alert(1)
+    window.wView.allowsInlineMediaPlayback = "YES";
+    window.wView.mediaPlaybackRequiresUserAction = "NO";
+}
 </script>
 	</head>
 	<body>
 		<div>
 			<div id="audiocontainer" style="display:none">
-				<audio id="bgsound" autoplay="autoplay">
+				<audio id="bgsound" autoplay="autoplay" preload="auto">
 					<source src="sound/pengyous.mp3">不支持audio</source>
 				</audio>
 			</div>
