@@ -162,9 +162,9 @@ body{
 	height:auto;width:110%;
 	position:absolute;
 	left:0%;
-	top:30%;
+	top:23%;
 	margin-left:-20px;
-	z-index:2;
+	z-index:1;
 }
 .page-3-1 .img_page3b {
 	height:auto;width:70%;
@@ -175,10 +175,10 @@ body{
 	z-index:2;
 }
 .page-3-1 .img_yuanbao {
-	height:auto;width:65%;
+	height:auto;width:45%;
 	position:absolute;
 	left:10%;
-	bottom:10%;
+	bottom:8%;
 	margin-left:0px;
 	z-index:2;
 }
