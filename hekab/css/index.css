@@ -34,9 +34,9 @@ body{
 }
 
 .page-1-1 .img_2015 {
-	height:auto;width:50%;
+	height:auto;width:100%;
 	position:absolute;
-	left:25%;
+	left:0%;
 	top:10%;
 	margin-left:0px;
 	z-index:2;
