@@ -16,11 +16,7 @@ $(document).swipeUp(function(){
 	if (isAnimating) return;
 	last.row = now.row;
 	last.col = now.col;
-<<<<<<< HEAD
-	if (last.row != 6) { now.row = last.row+1; now.col = 1; pageMove(towards.up);}	
-=======
 	if (last.row != 5) { now.row = last.row+1; now.col = 1; pageMove(towards.up);}	
->>>>>>> master
 })
 
 $(document).swipeDown(function(){
@@ -34,22 +30,14 @@ $(document).swipeLeft(function(){
 	if (isAnimating) return;
 	last.row = now.row;
 	last.col = now.col;
-<<<<<<< HEAD
-	if (last.row>1 && last.row<6 && last.col==1) { now.row = last.row; now.col = 2; pageMove(towards.left);}	
-=======
 	if (last.row>1 && last.row<5 && last.col==1) { now.row = last.row; now.col = 2; pageMove(towards.left);}	
->>>>>>> master
 })
 
 $(document).swipeRight(function(){
 	if (isAnimating) return;
 	last.row = now.row;
 	last.col = now.col;
-<<<<<<< HEAD
-	if (last.row>1 && last.row<6 && last.col==2) { now.row = last.row; now.col = 1; pageMove(towards.right);}	
-=======
 	if (last.row>1 && last.row<5 && last.col==2) { now.row = last.row; now.col = 1; pageMove(towards.right);}	
->>>>>>> master
 })
 
 function pageMove(tw){
