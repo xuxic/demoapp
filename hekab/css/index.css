@@ -33,31 +33,6 @@ body{
 	z-index:1;
 }
 
-<<<<<<< HEAD
-.page-1-1 .img_xinfeng {
-	height:auto;width:50%;
-	position:absolute;
-	left:25%;
-	top:30%;
-	margin-left:0px;
-}
-.page-1-1 .img_kaifeng {
-	height:auto;width:50%;
-	position:absolute;
-	left:25%;
-	top:10%;
-	margin-left:0px;
-	z-index:2;
-}
-.page-1-1 .img_logo {
-	height:auto;width:50%;
-	position:absolute;
-	left:25%;
-	top:60%;
-	margin-left:0px;
-	z-index:2;
-}
-=======
 .page-1-1 .img_2015 {
 	height:auto;width:100%;
 	position:absolute;
@@ -149,7 +124,6 @@ body{
 	margin-left:0px;
 }
 
->>>>>>> master
 .img_denglong {
 	height:auto;width:80%;
 	position:absolute;
@@ -219,37 +193,6 @@ body{
 	left:50%;
 	top:93%;
 	margin-left:-12px;
-<<<<<<< HEAD
-}
-.page-2-1 .img_zhufu {
-	height:auto;width:60%;
-	position:absolute;
-	right:21%;
-	top:25%;
-	margin-left:0px;
-	z-index:1;
-}
-.page-2-1 .img_chuan {
-	height:auto;width:80%;
-	position:absolute;
-	right:10%;
-	top:35%;
-	margin-left:0px;
-	z-index:1;
-}
-.page-2-1 .img_xin {
-	height:auto;width:80%;
-	position:absolute;
-	right:5%;
-	top:45%;
-	margin-left:0px;
-	z-index:1;
-}
-.page-2-1 .img_xintuo {
-	height:auto;width:70%;
-	position:absolute;
-	right:0%;
-=======
 	z-index:2;
 }
 .page-2-1 .img_jinxiu {
@@ -280,7 +223,6 @@ body{
 	height:auto;width:50%;
 	position:absolute;
 	left:45%;
->>>>>>> master
 	top:65%;
 	margin-left:0px;
 	z-index:1;
@@ -289,11 +231,7 @@ body{
 	height:auto;width:110%;
 	position:absolute;
 	left:0%;
-<<<<<<< HEAD
-	top:23%;
-=======
 	top:28%;
->>>>>>> master
 	margin-left:-20px;
 	z-index:1;
 }
@@ -306,11 +244,7 @@ body{
 	z-index:2;
 }
 .page-3-1 .img_yuanbao {
-<<<<<<< HEAD
-	height:auto;width:45%;
-=======
 	height:auto;width:50%;
->>>>>>> master
 	position:absolute;
 	left:10%;
 	bottom:8%;
@@ -321,11 +255,7 @@ body{
 	height:auto;width:80%;
 	position:absolute;
 	right:8%;
-<<<<<<< HEAD
-	top:25%;
-=======
 	top:20%;
->>>>>>> master
 	margin-left:0px;
 	z-index:2;
 }
@@ -334,40 +264,6 @@ body{
 	position:absolute;
 	right:5%;
 	top:35%;
-<<<<<<< HEAD
-	margin-left:0px;
-	z-index:2;
-}
-.page-4-1 .img_page4c {
-	height:auto;width:80%;
-	position:absolute;
-	right:8%;
-	top:60%;
-	margin-left:0px;
-	z-index:2;
-}
-.page-5-1 .img_page5 {
-	height:auto;width:100%;
-	position:absolute;
-	left:2%;
-	top:30%;
-	margin-left:0px;
-	z-index:2;
-}
-.page-5-1 .img_shield {
-	height:auto;width:15%;
-	position:absolute;
-	left:10%;
-	top:65%;
-	margin-left:0px;
-	z-index:2;
-}
-.page-5-1 .img_safe {
-	height:auto;width:15%;
-	position:absolute;
-	left:30%;
-	top:65%;
-=======
 	margin-left:5px;
 	z-index:2;
 }
@@ -400,22 +296,14 @@ body{
 	position:absolute;
 	left:10%;
 	top:62%;
->>>>>>> master
 	margin-left:0px;
 	z-index:2;
 }
 .page-5-1 .img_chaishen {
-<<<<<<< HEAD
-	height:auto;width:50%;
-	position:absolute;
-	left:25%;
-	top:60%;
-=======
 	height:auto;width:35%;
 	position:absolute;
 	left:32%;
 	top:78%;
->>>>>>> master
 	margin-left:0px;
 	z-index:2;
 }
