@@ -2,7 +2,10 @@ import web
 
 urls = (
     "/","hello",
+<<<<<<< HEAD
     "/(.*)",'Redirect'
+=======
+>>>>>>> master
 )
 
 app = web.application(urls, globals())
