@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>index</title>
+  <meta name="description" content="">
+  <meta name="author" content="Administrator">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+
+<style>
+.ui-body-f
+{
+background-color:black;
+color:purple;
+}
+</style>
+
+<script src="jquery.js"></script>
+<script src="jquery.mobile-1.4.5.js"></script>
+<script src="jquery.touchSwipe.js"></script>
+<script>
+var root = "file:///D:/Users/Administrator/git/demo/heka/index.html"
+$(document).on("pageinit","#pageone",function(){
+  $("#pageone").on("swipe",function(){
+    $.mobile.changePage("#pagetwo",{ transition: "slideup" });
+  });
+//  $("#pageone").bind("scrollstart",function(){
+//    $.mobile.changePage("#pagetwo",{ transition: "slideup" });
+//  });
+  $("#pagetwo").on("swipe",function(){
+    $.mobile.changePage("#pagethree",{ transition: "slideup" });
+  });
+  $("#pagethree").on("swipe",function(){
+    $.mobile.changePage("#pagefour",{ transition: "slideup" });
+  });
+  $("#pagefour").on("swipe",function(){
+    $.mobile.changePage("#pagefive",{ transition: "slideup" });
+  });
+  $("#pagefive").on("swipe",function(){
+    $.mobile.changePage("#pagesix",{ transition: "slideup" });
+  });
+});
+
+</script>
+</head>
+
+<body>
+	
+<div data-role="page" id="pageone">
+  <div data-role="content" data-theme="f">
+  	<img src="http://demoapp.coding.io/heka/page1.PNG" alt="logo"/ width="100%">
+  </div>
+  <div data-role="footer">
+  	<a href="#pageone" data-role="button" data-icon="home" class="ui-btn-right">首页</a>
+    <a href="#pagetwo" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
+  </div>
+</div>
+
+<div data-role="page" id="pagetwo">
+  <div data-role="content" data-theme="f">
+  	<img src="http://demoapp.coding.io/heka/page2.PNG"  alt="logo"/ width="100%">
+  </div>
+  <div data-role="footer" >
+  	<a href="#pageone" data-role="button" data-icon="home" class="ui-btn-left">首页</a>
+    <a href="#pagethree" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
+  </div>
+</div>
+
+<div data-role="page" id="pagethree">
+  <div data-role="content" data-theme="f">
+  	<img src="http://demoapp.coding.io/heka/page3.PNG"  alt="logo"/ width="100%">
+  </div>
+  <div data-role="footer">
+  	<a href="#pageone" data-role="button" data-icon="home" class="ui-btn-left">首页</a>
+    <a href="#pagefour" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
+  </div>
+</div>
+
+<div data-role="page" id="pagefour">
+  <div data-role="content" data-theme="f">
+  	<img src="http://demoapp.coding.io/heka/page4.PNG"  alt="logo"/ width="100%">
+  </div>
+  <div data-role="footer">
+  	<a href="#pageone" data-role="button" data-icon="home" class="ui-btn-left">首页</a>
+    <a href="#pagefive" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
+  </div>
+ </div>
+
+<div data-role="page" id="pagefive">
+  <div data-role="content" data-theme="f">
+  	<img src="http://demoapp.coding.io/heka/page5.PNG"  alt="logo"/ width="100%">
+  </div>
+  <div data-role="footer">
+  	<a href="#pageone" data-role="button" data-icon="home" class="ui-btn-left">首页</a>
+    <a href="#pagesix" data-role="button" data-icon="arrow-d" class="ui-btn-right">向下</a>
+  </div>
+</div>
+
+<div data-role="page" id="pagesix">
+  <div data-role="content">
+  	<p>这些成绩离不开您的信任、支持与理解，在元旦来临之际，四川信托全体员工向驰骋在五湖四海、各个领域的客户朋友们致以节日的祝贺、诚挚的问候和衷心的感谢！在未来的日子里，希望您能够继续相信我们的专业以及关注我们的产品！</p>
+  </div>
+  <div data-role="footer">
+    <a href="#pageone" data-role="button" data-icon="home" class="ui-btn-right">首页</a>
+  </div>
+</div>
+
+</body>
+</html>
